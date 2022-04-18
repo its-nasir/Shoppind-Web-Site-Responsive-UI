@@ -15,12 +15,9 @@ body{
     position: relative;
 }
 
-
-
 .loc{
     font-size: .8rem;
     color: #ED3897;
-
 }
 .hdr-1{
     font-size: .8rem;
@@ -41,14 +38,13 @@ body{
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    padding: 0 0 0 2rem;
+    padding: 0 0 0 .5rem;
 
 }
 .headerlogo span{
     color: #E83647;
 
 }
-
 .searchBar input{
     outline: none;
     color: #CBCBCB;
@@ -66,7 +62,6 @@ body{
     border: 1px solid #E5E5E5;
     cursor: pointer;
 }
-
 .accounts{
     font-size: 1rem;
     color: #E5E5E5;
@@ -74,33 +69,24 @@ body{
 .accounts img{
     width: 1.2rem;
 }
-.variTies{
-    font-size: .8rem;
+.nav-items{
+    font-size: .5rem;
     padding: 1.5rem 2rem 0 0;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 .reds{
     color: #E83647;
 }
-.variTies li:hover{
-    color: #E83647;
+.nav-items li:hover{
+    color: blue;
 }
 .main-1{
     position: sticky;
     top: 0;
     z-index: 5;
     background-color: white;
-}
-
-
-
-
-
-
-.space-1{
-    padding: 0 2rem;
 }
 .BigImg img{
     width: 100%;
@@ -119,6 +105,7 @@ body{
     font-size: .8rem;
 }
 .popularProducts select{
+    cursor: pointer;
     outline: none;
     border: none;   
     font-size: .8rem;
@@ -128,7 +115,6 @@ body{
     font-size: 1rem;
     color: black;
 }
-
 .step{
     color: #797979;
     font-size: .8rem;
@@ -141,9 +127,6 @@ body{
     font-family: 'Poppins',sans-serif;
     font-weight: 600;
 }
-
-
-
 .sizesBtns{
     padding: .3rem .5rem;
     font-size: .8rem;
@@ -169,8 +152,6 @@ body{
     height: 80%;
     object-fit: cover;
 }
-
-
 .cardTxt h5{
     font-size: 1rem;
     font-family: 'Poppins',sans-serif;
@@ -202,12 +183,6 @@ body{
     font-weight: 500;
     cursor: pointer;
 }
-
-
-
-
-
-
 .checkBoxes{
     height: 19rem;
     width: auto;
@@ -215,13 +190,8 @@ body{
     /* margin-top: 4rem; */
 }
 .checkBoxes::-webkit-scrollbar {
-    display: none;
-    
+    display: none;  
 }
-
-
-
-
 .Gender h5,
 .categorySearch h5{
     font-size: .8rem;
@@ -239,9 +209,6 @@ body{
     padding: 0 0 .8rem 0;
    
 }
-
-
-
 .allGenderContainer,
 .checkBoxes{
     font-size: .9rem;
@@ -253,8 +220,6 @@ body{
     color: #797979;
     font-size: .8rem;
 }
-
-
 .SeeAll{ 
     font-size: .7rem;
     color: #E83647;
@@ -263,22 +228,6 @@ body{
     cursor: pointer;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .minipriceInput input,
 .maxpriceInput input{
@@ -292,10 +241,6 @@ body{
     border: 2px solid red;
     width: 90%;
 }
-
-
-
-
 .leftSide,
 .rightSide{
     padding: .4rem .4rem;
@@ -358,13 +303,10 @@ body{
     filter: grayscale(100%);
     cursor: pointer;
 }
-
-
 input[name="EmailContacts"] {
 	accent-color: #E83647;
     cursor: pointer;
 }
-
 .EmailAddres{
     border: 1px solid #CCCCCC;
 }
@@ -384,7 +326,6 @@ input[name="EmailContacts"] {
     cursor: pointer;
     width: 10rem;
 }
-
 .appGoogle img{
  width: 8rem;
 }
@@ -422,19 +363,16 @@ input[name="EmailContacts"] {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
-
-
-
-
-
 .paymentImgs img{
     width: 3rem;
     height: auto;
 }
+
 .pymentInputs{
     border: 1px solid #CCCCCC;
     cursor: pointer;
 }
+
 .pymentInputs input{
     border: none;
     outline: none;
@@ -444,7 +382,6 @@ input[name="EmailContacts"] {
     font-weight: 400;
     font-size: .8rem;
 }
-
 .pymentInputs p{
     color: #fff;
     background-color: black;
@@ -470,42 +407,69 @@ input[name="EmailContacts"] {
     font-weight: 500;
     text-align: center;
 }
-
 .topDesigner h5{
     font-size: 1rem;
     color: #212121;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
-
-
-
-
-
-
 .cardsContainer{
-    margin-bottom: 40rem;
+    margin-bottom: 8rem;
 }
 
 .cards img{
-    width: 13.5rem;
+    /* width: 13.5rem; */
+    width: 18.5;
     gap: 2rem;
 }
-
-
 .items-1{
     margin-bottom: 40rem;
     font-size: 2rem;
 }
-
-
 .form-check{
-    /* width: 2rem; */
     font-size: .7rem;
 }
-
 /* price  */
-
 .p-1{
     font-size: 1rem;
 }
+
+
+.slider {
+-webkit-appearance: none;
+width: 100%;
+/* padding: .1rem 0; */
+height: 10px;
+background: #d3d3d3;
+outline: none;   
+/* opacity: 0.7; */
+-webkit-transition: .2s;
+transition: opacity .2s;
+}
+
+.slider:hover {
+opacity: 1;
+}
+
+.slider{
+    border-radius: 10rem 10rem;
+}
+
+.slider::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: 25px;
+height: 25px;
+background: red;
+border-radius: 50%;
+cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+width: 25px;
+height: 25px;
+/* background: #04AA6D; */
+cursor: pointer;
+}
+
+
